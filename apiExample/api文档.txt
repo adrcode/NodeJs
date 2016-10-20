@@ -1,0 +1,15 @@
+1. GET http://127.0.0.1:5000/api/v1/books
+2. GET http://127.0.0.1:5000/api/v1/books/1000
+3. POST http://127.0.0.1:5000/api/v1/books
+	{
+		author: "Jack",
+		name: "groovy",
+		price: "30"
+	}
+4. PUT http://127.0.0.1:5000/api/v1/books/1000
+	{
+		author: "Jack",
+		name: "groovy",
+		price: "30"
+	}
+5. DELETE http://127.0.0.1:5000/api/v1/books/1000
